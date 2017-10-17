@@ -21,6 +21,38 @@ header.candidate-header {
     background-position: center;
     background-size: cover; }
 
+#mainNav {
+    background-color:transparent;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    font-family: 'Work Sans', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    padding-top: 50px;
+    text-transform: uppercase; }
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px; }
+    .navbar-nav .nav-item .nav-link:hover {
+        color: rgb(249, 194, 49); }
+
+#login {
+    color: rgb(249, 194, 49);
+    font-family: 'Work Sans Medium', 'Helvetica', 'Arial', 'sans-serif'; }
+    #login:hover {
+        color: rgb(239, 180, 48); }
+
+#signup {
+    background-color: rgb(249, 194, 49);
+    padding: 10px 30px;
+    margin-left: 10px;
+    border-radius: 300px; }
+    #signup:hover {
+        background-color: rgb(239, 180, 48);
+        color: rgb(255, 255, 255); }
+
 .btn-gold {
     color: rgb(255, 255, 255);
     background-color: rgb(249, 194, 49); }
