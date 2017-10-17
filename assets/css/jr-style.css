@@ -15,11 +15,20 @@ a {
 header.candidate-header {
     position: relative;
     width: 100%;
-    height: 80vh;
+    padding-top: 300px;
+    padding-bottom: 100px;
     color: rgb(255, 255, 255);
     background-image: url("../media/images/background-02.jpg");
     background-position: center;
     background-size: cover; }
+    header.candidate-header .candidate-header-content {
+        max-width: 700px;
+        margin-bottom: 100px; }
+        header.candidate-header .candidate-header-content h1 {
+            font-family: 'Titillium Web', 'Helvetica', 'Arial', 'sans-serif';
+            font-weight: 600;
+            font-size: 3.6rem;
+            letter-spacing: 3px; }
 
 #mainNav {
     background-color:transparent;
