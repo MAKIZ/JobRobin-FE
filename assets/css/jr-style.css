@@ -50,6 +50,12 @@ footer {
     text-transform: uppercase;
 }
 
+@media screen and (min-width: 360px) {
+    #mainNav {
+        background: #49556C;
+    }
+}
+
 .navbar-nav .nav-item .nav-link {
     color: rgb(255, 255, 255);
     padding: 10px 15px;
