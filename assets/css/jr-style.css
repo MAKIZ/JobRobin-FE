@@ -50,9 +50,9 @@ footer {
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 360px) {
-    #mainNav {
-        background: #49556C;
+@media screen and (max-width: 360px) {
+    .solidNav {
+        background: red;
     }
 }
 
@@ -77,6 +77,12 @@ footer {
 #logo {
     margin: 0;
     height: 40px;
+}
+
+#belowHome {
+    position: absolute;
+    top: 40px;
+    visibility: hidden;
 }
 
 .login {
@@ -215,4 +221,21 @@ section.globe p {
     margin: 0 auto;
     text-align: center;
     padding: 40px 0;
+}
+
+ul.social-inline {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+ul.social-inline li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+ul.social-inline li img {
+/*    background: tomato;*/
+    height: 16px;
 }
