@@ -79,7 +79,7 @@ footer {
     height: 40px;
 }
 
-#belowHome {
+#belowHeader {
     position: absolute;
     top: 40px;
     visibility: hidden;
@@ -223,6 +223,83 @@ section.globe p {
     padding: 40px 0;
 }
 
+/* employer */
+header.employer-header {
+    position: relative;
+    width: 100%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    color: rgb(255, 255, 255);
+    background: rgb(78, 85, 108);
+    background-position: center;
+    background-size: cover;
+}
+
+header.employer-header .employer-header-content {
+    max-width: 600px;
+    margin-bottom: 100px;
+}
+
+header.employer-header .employer-header-content h1 {
+    font-family: "Titillium Web", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+
+section.finding {
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 154, 42);
+    background-position: center;
+    background-size: cover;
+}
+
+section.assessment {
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+section.assessment p.text-header {
+    color: rgb(62, 72, 94);
+}
+
+section.assessment p {
+    color: rgb(93, 93, 93)
+}
+
+section.pricing {
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 189, 177);
+    background-position: center;
+    background-size: cover;
+}
+
+section.why-work {
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
+}
+
+section.process p.text-header {
+    color: rgb(62, 72, 94);
+}
+
+section.process p {
+    color: rgb(93, 93, 93)
+}
+/* employer */
+
 ul.social-inline {
     list-style: none;
     display: flex;
@@ -236,6 +313,5 @@ ul.social-inline li {
 }
 
 ul.social-inline li img {
-/*    background: tomato;*/
     height: 16px;
 }
