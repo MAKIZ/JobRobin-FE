@@ -17,15 +17,15 @@ function navBkgEmp() {
         if (scrollPosition >= navTop && scrollPosition < belowHeader) {
             $("#mainNav").css("background", "transparent");
         } else if (scrollPosition >= belowHeader && scrollPosition < finding) {
-            $("#mainNav").css("background", "#49556C");
+            $("#mainNav").css("background", "#00BDB1");
         } else if (scrollPosition >= finding && scrollPosition < assessment) {
             $("#mainNav").css("background", "#FF9A26");
         } else if (scrollPosition >= assessment && scrollPosition < pricing) {
             $("#mainNav").css("background", "#FF9A26");
         } else if (scrollPosition >= pricing && scrollPosition < whywork) {
-            $("#mainNav").css("background", "#00BDB1");
+            $("#mainNav").css("background", "#49556C");
         } else if (scrollPosition >= whywork) {
-            $("#mainNav").css("background", "#00BDB1");
+            $("#mainNav").css("background", "#49556C");
         }
     })
 }
