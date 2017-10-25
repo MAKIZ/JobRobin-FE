@@ -1,8 +1,8 @@
 var navTop = $("#header").offset().top;
 var belowHeader = $("#belowHeader").offset().top;
-var role = $("#role").offset().top;
+var role = $("#role").offset().top - 66;
 var feedback = $("#feedback").offset().top;
-var profile = $("#profile").offset().top;
+var profile = $("#profile").offset().top-60;
 var globe = $("#globe").offset().top;
 
 if ($(window).width() < 992) {
