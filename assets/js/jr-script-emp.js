@@ -1,7 +1,7 @@
 var navTop = $("#header").offset().top;
 var belowHeader = $("#belowHeader").offset().top;
-var finding = $("#finding").offset().top;
-var assessment = $("#assessment").offset().top - 66;
+var finding = $("#finding").offset().top -66;
+var assessment = $("#assessment").offset().top;
 var pricing = $("#pricing").offset().top - 66;
 var whywork = $("#whywork").offset().top;
 
