@@ -39,6 +39,14 @@ footer {
     padding: 40px;
 }
 
+.footer-text-header {
+    font-family: Titillium Web;
+}
+
+.copyright {
+    font-family: Titillium Web Light;
+}
+
 #mainNav {
     background: transparent;
     -webkit-transition: all 0.35s;
