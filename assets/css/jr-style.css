@@ -230,7 +230,7 @@ header.employer-header {
     padding-top: 15%;
     padding-bottom: 5%;
     color: rgb(255, 255, 255);
-    background: rgb(0, 189, 177);
+    background-image: url("../media/images/header-background_emp.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -254,7 +254,7 @@ section.finding {
     padding-top: 10%;
     padding-bottom: 10%;
     color: rgb(255, 255, 255);
-    background: rgb(255, 154, 42);
+    background-image: url("../media/images/finding-background.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -280,7 +280,7 @@ section.pricing {
     padding-top: 10%;
     padding-bottom: 10%;
     color: rgb(255, 255, 255);
-    background: rgb(78, 85, 108);
+    background-image: url("../media/images/pricing-background.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -289,6 +289,9 @@ section.why-work {
     position: relative;
     width: 100%;
     padding-top: 10%;
+    background-image: url("../media/images/wework-background.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 section.process p.text-header {
