@@ -108,7 +108,7 @@ footer {
     text-transform: uppercase;
 }
 
-.btn-xl {
+.btn-lg {
     font-size: 1rem;
     padding: 15px 40px;
 }
@@ -116,6 +116,12 @@ footer {
 .btn-md {
     font-size: 1rem;
     padding: 10px 26px;
+}
+
+.btn-sm {
+    margin-left: 15px;
+    font-size: 1rem;
+    padding: 6px 24px;
 }
 
 .btn-gold {
