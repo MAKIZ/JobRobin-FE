@@ -168,8 +168,8 @@ header.candidate-header .candidate-header-content h1 {
 section.role {
     position: relative;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     color: rgb(255, 255, 255);
     background-image: url("../media/images/role-bkg.jpg");
     background-position: center;
